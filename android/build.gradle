@@ -34,15 +34,3 @@ dependencies {
     compile 'com.facebook.react:react-native:0.56.0' // from node_modules
 }
 
-allprojects {
-    repositories {
-        maven {
-            // All of React Native (JS, Android binaries) is installed from npm
-            url "/Users/jstone/IdeaProjects/tw_mobile/node_modules/react-native/android"
-        }
-        jcenter()
-        maven {
-            url 'https://maven.google.com'
-        }
-    }
-}
